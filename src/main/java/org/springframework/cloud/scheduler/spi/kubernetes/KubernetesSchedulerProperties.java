@@ -33,7 +33,7 @@ public class KubernetesSchedulerProperties {
 
 	private ImagePullPolicy imagePullPolicy = ImagePullPolicy.IfNotPresent;
 
-	private RestartPolicy restartPolicy = RestartPolicy.OnFailure;
+	private RestartPolicy restartPolicy = RestartPolicy.Never;
 
 	private String namespace = KUBERNETES_NAMESPACE;
 
